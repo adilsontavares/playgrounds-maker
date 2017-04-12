@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D87CD6A1E9ED49A004B1D85 /* NSColor+Hexadecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D87CD691E9ED49A004B1D85 /* NSColor+Hexadecimal.swift */; };
+		6D87CD6C1E9ED6A3004B1D85 /* NSColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D87CD6B1E9ED6A3004B1D85 /* NSColor+AppColors.swift */; };
 		6DCB6E721E9EA65500770C4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB6E711E9EA65500770C4B /* AppDelegate.swift */; };
 		6DCB6E741E9EA65500770C4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB6E731E9EA65500770C4B /* ViewController.swift */; };
 		6DCB6E761E9EA65500770C4B /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB6E751E9EA65500770C4B /* Document.swift */; };
 		6DCB6E781E9EA65500770C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DCB6E771E9EA65500770C4B /* Assets.xcassets */; };
 		6DCB6E7B1E9EA65500770C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCB6E791E9EA65500770C4B /* Main.storyboard */; };
+		6DDD11051E9EC0F3006F92F3 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD11041E9EC0F3006F92F3 /* SectionView.swift */; };
+		6DDD11071E9EC126006F92F3 /* SectionGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD11061E9EC126006F92F3 /* SectionGroupView.swift */; };
+		6DF2B0B41E9EEDB6003F9230 /* NSView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2B0B31E9EEDB6003F9230 /* NSView+Constraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D87CD691E9ED49A004B1D85 /* NSColor+Hexadecimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Hexadecimal.swift"; sourceTree = "<group>"; };
+		6D87CD6B1E9ED6A3004B1D85 /* NSColor+AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+AppColors.swift"; sourceTree = "<group>"; };
 		6DCB6E6E1E9EA65500770C4B /* PlaygroundsMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundsMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DCB6E711E9EA65500770C4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DCB6E731E9EA65500770C4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		6DCB6E771E9EA65500770C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DCB6E7A1E9EA65500770C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DCB6E7C1E9EA65500770C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DDD11041E9EC0F3006F92F3 /* SectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		6DDD11061E9EC126006F92F3 /* SectionGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionGroupView.swift; sourceTree = "<group>"; };
+		6DF2B0B31E9EEDB6003F9230 /* NSView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+Constraints.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D87CD681E9ED45C004B1D85 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6D87CD6B1E9ED6A3004B1D85 /* NSColor+AppColors.swift */,
+				6D87CD691E9ED49A004B1D85 /* NSColor+Hexadecimal.swift */,
+				6DF2B0B31E9EEDB6003F9230 /* NSView+Constraints.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		6DCB6E651E9EA65500770C4B = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +77,11 @@
 				6DCB6E711E9EA65500770C4B /* AppDelegate.swift */,
 				6DCB6E731E9EA65500770C4B /* ViewController.swift */,
 				6DCB6E751E9EA65500770C4B /* Document.swift */,
+				6DDD11041E9EC0F3006F92F3 /* SectionView.swift */,
+				6DDD11061E9EC126006F92F3 /* SectionGroupView.swift */,
 				6DCB6E771E9EA65500770C4B /* Assets.xcassets */,
 				6DCB6E791E9EA65500770C4B /* Main.storyboard */,
+				6D87CD681E9ED45C004B1D85 /* Extensions */,
 				6DCB6E7C1E9EA65500770C4B /* Info.plist */,
 			);
 			path = PlaygroundsMaker;
@@ -136,8 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D87CD6C1E9ED6A3004B1D85 /* NSColor+AppColors.swift in Sources */,
 				6DCB6E741E9EA65500770C4B /* ViewController.swift in Sources */,
+				6DF2B0B41E9EEDB6003F9230 /* NSView+Constraints.swift in Sources */,
+				6DDD11051E9EC0F3006F92F3 /* SectionView.swift in Sources */,
+				6D87CD6A1E9ED49A004B1D85 /* NSColor+Hexadecimal.swift in Sources */,
 				6DCB6E721E9EA65500770C4B /* AppDelegate.swift in Sources */,
+				6DDD11071E9EC126006F92F3 /* SectionGroupView.swift in Sources */,
 				6DCB6E761E9EA65500770C4B /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +327,7 @@
 				6DCB6E811E9EA65500770C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
