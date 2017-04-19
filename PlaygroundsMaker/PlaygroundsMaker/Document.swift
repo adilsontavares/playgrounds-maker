@@ -27,6 +27,16 @@ class Document: NSDocument {
         let windowController = storyboard.instantiateController(withIdentifier: "Document Window Controller") as! NSWindowController
         
         self.addWindowController(windowController)
+        
+//        let controller = BookContentController()
+//        
+//        let window = NSWindow()
+//        window.styleMask = [window.styleMask, NSWindowStyleMask.resizable]
+//        
+//        let windowController = NSWindowController(window: window)
+//        windowController.contentViewController = controller
+//        
+//        self.addWindowController(windowController)
     }
 
     override func data(ofType typeName: String) throws -> Data {

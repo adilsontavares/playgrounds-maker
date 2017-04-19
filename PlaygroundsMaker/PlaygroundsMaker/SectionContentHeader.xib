@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12118"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SectionContentHeader" customModule="Playgrounds_Maker" customModuleProvider="target">
+            <connections>
+                <outlet property="descriptionLabel" destination="VIb-hc-ygT" id="uqK-8t-ruY"/>
+                <outlet property="titleLabel" destination="dt2-fu-Lec" id="dNR-LA-eSO"/>
+                <outlet property="view" destination="c22-O7-iKe" id="jaQ-uj-XsI"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="133"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dt2-fu-Lec">
+                    <rect key="frame" x="106" y="90" width="112" height="23"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="CAPÍTULOS" id="qW9-Vy-S3R">
+                        <font key="font" metaFont="systemBold" size="19"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="eaD-ym-2uV">
+                    <rect key="frame" x="77" y="23" width="170" height="5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="170" id="5Ww-sd-z1J"/>
+                    </constraints>
+                </box>
+                <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="6v9-eK-0r0">
+                    <rect key="frame" x="102" y="18" width="120" height="5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="f1W-bN-bSj"/>
+                    </constraints>
+                </box>
+                <textField horizontalHuggingPriority="100" verticalHuggingPriority="750" horizontalCompressionResistancePriority="100" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIb-hc-ygT">
+                    <rect key="frame" x="38" y="38" width="248" height="44"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="O capítulo agrupa páginas distintas do seu playground." id="Y4r-eF-fGE">
+                        <font key="font" metaFont="system" size="18"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="eaD-ym-2uV" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="1Ta-Qg-wW8"/>
+                <constraint firstItem="dt2-fu-Lec" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="84j-Dn-ew1"/>
+                <constraint firstItem="VIb-hc-ygT" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="CFa-Kc-X9x"/>
+                <constraint firstItem="eaD-ym-2uV" firstAttribute="top" secondItem="VIb-hc-ygT" secondAttribute="bottom" constant="12" id="Fbf-UO-mfN"/>
+                <constraint firstItem="VIb-hc-ygT" firstAttribute="top" secondItem="dt2-fu-Lec" secondAttribute="bottom" constant="8" id="Rv1-mq-nfD"/>
+                <constraint firstAttribute="bottom" secondItem="6v9-eK-0r0" secondAttribute="bottom" constant="20" id="ZSC-Cz-zmG"/>
+                <constraint firstItem="6v9-eK-0r0" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="abr-Fs-Tfd"/>
+                <constraint firstItem="dt2-fu-Lec" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="acx-aI-JWn"/>
+                <constraint firstItem="VIb-hc-ygT" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" priority="500" constant="40" id="b6d-OX-uro"/>
+                <constraint firstItem="6v9-eK-0r0" firstAttribute="top" secondItem="eaD-ym-2uV" secondAttribute="bottom" constant="4" id="rc9-UR-IKG"/>
+            </constraints>
+            <point key="canvasLocation" x="-91" y="253"/>
+        </customView>
+    </objects>
+</document>

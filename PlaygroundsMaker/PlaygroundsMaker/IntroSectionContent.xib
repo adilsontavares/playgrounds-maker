@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12118"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="IntroContentController" customModule="Playgrounds_Maker" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="c22-O7-iKe" id="4LO-nk-jDe"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="715" height="577"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKs-WO-gJb">
+                    <rect key="frame" x="252" y="554" width="211" height="23"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="SWIFT PLAYGROUNDS" id="paT-F8-6HF">
+                        <font key="font" metaFont="systemBold" size="19"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="100" verticalHuggingPriority="501" horizontalCompressionResistancePriority="100" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJO-VA-XuU">
+                    <rect key="frame" x="58" y="496" width="599" height="38"/>
+                    <textFieldCell key="cell" truncatesLastVisibleLine="YES" sendsActionOnEndEditing="YES" alignment="center" id="7uO-Hd-ND7">
+                        <font key="font" metaFont="system" size="16"/>
+                        <string key="title">Lançado pela Apple em 2016, Swift Playgrounds é uma ferramenta destinada a iPad de aprendizadem para sua linguagem de programação, Swift. </string>
+                        <color key="textColor" red="0.52941176470588236" green="0.52941176470588236" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <imageView horizontalHuggingPriority="100" verticalHuggingPriority="100" horizontalCompressionResistancePriority="100" verticalCompressionResistancePriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="BjW-JO-JHO">
+                    <rect key="frame" x="80" y="40" width="555" height="416"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="BjW-JO-JHO" secondAttribute="height" multiplier="4:3" id="JGC-qs-r4w"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="swift-playgrounds" id="OhA-zV-RtU"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="tJO-VA-XuU" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="6Vr-pa-1am"/>
+                <constraint firstItem="hKs-WO-gJb" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="9gl-LF-EXm"/>
+                <constraint firstItem="BjW-JO-JHO" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="BKz-Ur-0hX"/>
+                <constraint firstItem="BjW-JO-JHO" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="80" id="BOv-4B-BRE"/>
+                <constraint firstItem="tJO-VA-XuU" firstAttribute="top" secondItem="hKs-WO-gJb" secondAttribute="bottom" constant="20" id="LBx-50-CPS"/>
+                <constraint firstItem="BjW-JO-JHO" firstAttribute="top" secondItem="tJO-VA-XuU" secondAttribute="bottom" constant="40" id="eWu-JF-V8b"/>
+                <constraint firstAttribute="bottom" secondItem="BjW-JO-JHO" secondAttribute="bottom" constant="40" id="f49-lP-ABc"/>
+                <constraint firstItem="tJO-VA-XuU" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="60" id="vhl-dj-7Na"/>
+                <constraint firstItem="hKs-WO-gJb" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="yW6-vJ-1GK"/>
+            </constraints>
+            <point key="canvasLocation" x="531.5" y="612"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="swift-playgrounds" width="496.5" height="372.5"/>
+    </resources>
+</document>

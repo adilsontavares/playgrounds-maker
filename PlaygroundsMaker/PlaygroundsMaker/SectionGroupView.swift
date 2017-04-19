@@ -15,24 +15,49 @@ class SectionGroupView: NSStackView, SectionViewDelegate {
     
     func addSectionView(_ sectionView: SectionView) {
         
-        if sections.isEmpty {
-            currentSection = sectionView
-        }
-        
         sectionView.delegate = self
         
         sections.append(sectionView)
         addArrangedSubview(sectionView)
-    }
-    
-    func openSection(_ section: SectionView) {
         
-        if let index = sections.index(of: section) {
-            openSection(at: index)
+        if sections.count == 1 {
+            openSection(at: 0, animated: false)
         }
     }
     
-    func openSection(at index: Int) {
+    func openNextSection(animated: Bool = true) {
+        
+        if let index = indexOf(section: currentSection) {
+            openSection(at: index + 1)
+        }
+    }
+    
+    func openPreviousSection(animated: Bool = true) {
+        
+        if let index = indexOf(section: currentSection) {
+            openSection(at: index - 1)
+        }
+    }
+    
+    func openSection(_ section: SectionView, animated: Bool = true) {
+        
+        if let index = sections.index(of: section) {
+            openSection(at: index, animated: animated)
+        }
+    }
+    
+    func indexOf(section: SectionView?) -> Int? {
+        
+        if section == nil {
+            return nil
+        }
+        
+        return sections.index(where: { (s) -> Bool in
+            return s == section
+        })
+    }
+    
+    func openSection(at index: Int, animated: Bool = true) {
         
         if index < 0 || index >= sections.count {
             return
@@ -43,20 +68,8 @@ class SectionGroupView: NSStackView, SectionViewDelegate {
             return
         }
         
-        let collapsedWidth = SectionView.defaultWidth
-        let openedWidth = self.frame.width - (SectionView.defaultWidth * CGFloat(sections.count - 1))
-        
-        layer!.backgroundColor = currentSection?.color.cgColor
-        
-        NSAnimationContext.beginGrouping()
-        NSAnimationContext.current().allowsImplicitAnimation = true
-        NSAnimationContext.current().duration = 0.3
-        
-        currentSection?.widthConstraint?.constant = collapsedWidth
-        newSection.widthConstraint?.constant = openedWidth
-        
-        superview?.layoutSubtreeIfNeeded()
-        NSAnimationContext.endGrouping()
+        currentSection?.close(animated: animated)
+        newSection.open(animated: animated)
         
         currentSection = newSection
     }

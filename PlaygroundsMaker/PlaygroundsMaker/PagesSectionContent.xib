@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12118"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PagesContentController" customModule="Playgrounds_Maker" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="c22-O7-iKe" id="T3z-fv-7Tt"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="614" height="431"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView horizontalHuggingPriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="7DG-nE-WbP">
+                    <rect key="frame" x="60" y="393" width="494" height="38"/>
+                    <subviews>
+                        <popUpButton horizontalHuggingPriority="100" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="c0W-X5-So5">
+                            <rect key="frame" x="6" y="8" width="482" height="23"/>
+                            <popUpButtonCell key="cell" type="bevel" title="Introdução" bezelStyle="rounded" imagePosition="above" alignment="center" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" selectedItem="oA6-6s-AAf" id="Ons-At-zlm">
+                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="systemBold" size="16"/>
+                                <menu key="menu" id="DeW-zQ-Tn7">
+                                    <items>
+                                        <menuItem title="Introdução" state="on" id="oA6-6s-AAf"/>
+                                        <menuItem title="Olá, mundo!" id="m96-tu-EnR"/>
+                                        <menuItem title="Declaração de variáveis" id="Urb-C0-UVe"/>
+                                        <menuItem title="Laços de repetição" id="lbf-8v-T9T"/>
+                                    </items>
+                                </menu>
+                            </popUpButtonCell>
+                        </popUpButton>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="c0W-X5-So5" firstAttribute="centerY" secondItem="7DG-nE-WbP" secondAttribute="centerY" id="98y-Gv-elz"/>
+                        <constraint firstAttribute="trailing" secondItem="c0W-X5-So5" secondAttribute="trailing" constant="6" id="BgN-hV-Akz"/>
+                        <constraint firstAttribute="height" constant="38" id="Ikk-gN-Nd8"/>
+                        <constraint firstItem="c0W-X5-So5" firstAttribute="leading" secondItem="7DG-nE-WbP" secondAttribute="leading" constant="6" id="pKY-AJ-pWF"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                            <color key="value" red="0.53333333333333333" green="0.1764705882352941" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="7DG-nE-WbP" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="60" id="3nF-JZ-w9l"/>
+                <constraint firstItem="7DG-nE-WbP" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="JHG-LL-9Px"/>
+                <constraint firstAttribute="trailing" secondItem="7DG-nE-WbP" secondAttribute="trailing" constant="60" id="mdE-S2-0Jo"/>
+            </constraints>
+            <point key="canvasLocation" x="199" y="88.5"/>
+        </customView>
+    </objects>
+</document>
