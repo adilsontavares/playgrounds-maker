@@ -32,6 +32,7 @@
 		6DDD11051E9EC0F3006F92F3 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD11041E9EC0F3006F92F3 /* SectionView.swift */; };
 		6DDD11071E9EC126006F92F3 /* SectionGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD11061E9EC126006F92F3 /* SectionGroupView.swift */; };
 		6DF2B0B41E9EEDB6003F9230 /* NSView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2B0B31E9EEDB6003F9230 /* NSView+Constraints.swift */; };
+		6DF74FC21EA725020074AD11 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF74FC11EA725020074AD11 /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		6DDD11041E9EC0F3006F92F3 /* SectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		6DDD11061E9EC126006F92F3 /* SectionGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionGroupView.swift; sourceTree = "<group>"; };
 		6DF2B0B31E9EEDB6003F9230 /* NSView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+Constraints.swift"; sourceTree = "<group>"; };
+		6DF74FC11EA725020074AD11 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				6D021E861EA5CCF60004043D /* Chapter.swift */,
+				6DF74FC11EA725020074AD11 /* Page.swift */,
 			);
 			name = Entities;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				6DF2B0B41E9EEDB6003F9230 /* NSView+Constraints.swift in Sources */,
 				6D021E791EA573970004043D /* IntroContentController.swift in Sources */,
 				6DDD11051E9EC0F3006F92F3 /* SectionView.swift in Sources */,
+				6DF74FC21EA725020074AD11 /* Page.swift in Sources */,
 				6D87CD6A1E9ED49A004B1D85 /* NSColor+Hexadecimal.swift in Sources */,
 				6DCB6E721E9EA65500770C4B /* AppDelegate.swift in Sources */,
 				6DDD11071E9EC126006F92F3 /* SectionGroupView.swift in Sources */,

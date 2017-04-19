@@ -10,6 +10,10 @@ import Cocoa
 
 class PagesContentController : SectionContentController {
     
+    var pages = [
+        Page(name: "Hello, world!")
+    ]
+    
     init() {
         super.init(nibName: "PagesSectionContent")
     }
