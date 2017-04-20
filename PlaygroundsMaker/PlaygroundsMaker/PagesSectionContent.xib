@@ -85,7 +85,7 @@
                                         </textFieldCell>
                                         <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                         <prototypeCellViews>
-                                            <tableCellView id="TVg-qb-Fgm">
+                                            <tableCellView id="TVg-qb-Fgm" customClass="PageContentCell" customModule="Playgrounds_Maker" customModuleProvider="target">
                                                 <rect key="frame" x="1" y="1" width="644" height="372"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
@@ -182,6 +182,9 @@
                                                                                                                 <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                             </userDefinedRuntimeAttribute>
                                                                                                         </userDefinedRuntimeAttributes>
+                                                                                                        <connections>
+                                                                                                            <binding destination="TVg-qb-Fgm" name="value" keyPath="objectValue.showsLiveView" id="L2n-26-X7a"/>
+                                                                                                        </connections>
                                                                                                     </button>
                                                                                                 </subviews>
                                                                                                 <constraints>
@@ -213,6 +216,13 @@
                                                                                                                 <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                             </userDefinedRuntimeAttribute>
                                                                                                         </userDefinedRuntimeAttributes>
+                                                                                                        <connections>
+                                                                                                            <binding destination="TVg-qb-Fgm" name="value" keyPath="objectValue.liveViewFloats" id="3rc-5r-m33">
+                                                                                                                <dictionary key="options">
+                                                                                                                    <string key="NSValueTransformerName">NSNegateBoolean</string>
+                                                                                                                </dictionary>
+                                                                                                            </binding>
+                                                                                                        </connections>
                                                                                                     </button>
                                                                                                 </subviews>
                                                                                                 <constraints>
@@ -243,6 +253,9 @@
                                                                                                                 <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                             </userDefinedRuntimeAttribute>
                                                                                                         </userDefinedRuntimeAttributes>
+                                                                                                        <connections>
+                                                                                                            <binding destination="TVg-qb-Fgm" name="value" keyPath="objectValue.showsResults" id="oW7-Kw-ifR"/>
+                                                                                                        </connections>
                                                                                                     </button>
                                                                                                 </subviews>
                                                                                                 <constraints>
@@ -358,7 +371,11 @@
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
                                                                 <connections>
-                                                                    <binding destination="TVg-qb-Fgm" name="value" keyPath="objectValue.collapsed" id="P6x-cP-ARJ"/>
+                                                                    <binding destination="TVg-qb-Fgm" name="value" keyPath="objectValue.collapsed" id="Jhl-5P-QAt">
+                                                                        <dictionary key="options">
+                                                                            <string key="NSValueTransformerName">NSNegateBoolean</string>
+                                                                        </dictionary>
+                                                                    </binding>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -396,6 +413,13 @@
                                                     <constraint firstItem="zem-HI-m7Y" firstAttribute="leading" secondItem="TVg-qb-Fgm" secondAttribute="leading" id="avY-G5-0fm"/>
                                                     <constraint firstAttribute="bottom" secondItem="zem-HI-m7Y" secondAttribute="bottom" constant="4" id="d6m-jg-JYI"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outlet property="fillLiveViewButton" destination="0xt-1j-ich" id="NeD-xP-ltI"/>
+                                                    <outlet property="liveViewPreview" destination="YZL-f4-twk" id="WRb-6b-KK5"/>
+                                                    <outlet property="posterView" destination="m8P-lK-G69" id="Gvp-LN-n34"/>
+                                                    <outlet property="showsLiveViewButton" destination="icA-Y9-wZp" id="OZV-5E-sw3"/>
+                                                    <outlet property="showsResultsButton" destination="7ic-l4-Ryk" id="pQM-Tv-Wl0"/>
+                                                </connections>
                                             </tableCellView>
                                         </prototypeCellViews>
                                         <connections>

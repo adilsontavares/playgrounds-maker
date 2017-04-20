@@ -17,6 +17,9 @@ protocol PageDelegate {
 class Page : NSObject {
     
     var delegate: PageDelegate?
+    var showsLiveView = true
+    var showsResults = false
+    var liveViewFloats = true
     var name: String? = ""
     
     var collapsed = true {

@@ -10,11 +10,41 @@ import Cocoa
 
 class LiveViewPreview: NSView {
     
-    var liveViewFloats = true
-    var showsLiveView = true
+    var liveViewFloats = true {
+        didSet {
+            willChangeValue(forKey: "liveViewFloats")
+            animateProperties()
+            didChangeValue(forKey: "liveViewFloats")
+        }
+    }
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    var showsLiveView = true {
+        didSet {
+            willChangeValue(forKey: "showsLiveView")
+            animateProperties()
+            didChangeValue(forKey: "showsLiveView")
+        }
+    }
+    
+    var showsResults = false {
+        didSet {
+            willChangeValue(forKey: "showsResults")
+            animateProperties()
+            didChangeValue(forKey: "showsResults")
+        }
+    }
+    
+    override init(frame frameRect: NSRect) {
+        super.init(frame: frameRect)
+        setup()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setup()
+    }
+    
+    private func setup() {
         
         layer = LiveViewPreviewLayer()
         layerContentsRedrawPolicy = .onSetNeedsDisplay
@@ -46,12 +76,10 @@ class LiveViewPreview: NSView {
     
     func toggleLiveViewFloats() {
         liveViewFloats = !liveViewFloats
-        animateProperties()
     }
     
     func toggleShowsLiveView() {
         showsLiveView = !showsLiveView
-        animateProperties()
     }
     
     func animateProperty(forKey key: String, from: CGFloat, to: CGFloat) {
@@ -68,12 +96,16 @@ class LiveViewPreview: NSView {
     
     func animateProperties() {
         
-        let layer = self.layer as! LiveViewPreviewLayer
+        if let layer = self.layer as? LiveViewPreviewLayer {
         
-        let floatPercent: CGFloat = liveViewFloats ? 1.0 : 0.0
-        animateProperty(forKey: "liveViewFloatPercent", from: layer.liveViewFloatPercent, to: floatPercent)
-        
-        let showPercent: CGFloat = showsLiveView ? 1.0 : 0.0
-        animateProperty(forKey: "liveViewShowPercent", from: layer.liveViewShowPercent, to: showPercent)
+            let floatPercent: CGFloat = liveViewFloats ? 1.0 : 0.0
+            animateProperty(forKey: "liveViewFloatPercent", from: layer.liveViewFloatPercent, to: floatPercent)
+            
+            let showPercent: CGFloat = showsLiveView ? 1.0 : 0.0
+            animateProperty(forKey: "liveViewShowPercent", from: layer.liveViewShowPercent, to: showPercent)
+            
+            let resultsPercent: CGFloat = showsResults ? 1.0 : 0.0
+            animateProperty(forKey: "showResultsPercent", from: layer.showResultsPercent, to: resultsPercent)
+        }
     }
 }

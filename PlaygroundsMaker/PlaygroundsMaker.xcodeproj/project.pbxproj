@@ -18,6 +18,8 @@
 		6D021E841EA5CA320004043D /* ChaptersSectionContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D021E831EA5CA320004043D /* ChaptersSectionContent.xib */; };
 		6D021E871EA5CCF60004043D /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D021E861EA5CCF60004043D /* Chapter.swift */; };
 		6D2CB75F1E9F1DDE00E41D40 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2CB75E1E9F1DDE00E41D40 /* ContainerView.swift */; };
+		6D6B933D1EA95F6800C83FDB /* PageContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6B933C1EA95F6800C83FDB /* PageContentCell.swift */; };
+		6D6B933F1EA9687600C83FDB /* NSObject+Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6B933E1EA9687600C83FDB /* NSObject+Binding.swift */; };
 		6D87CD6A1E9ED49A004B1D85 /* NSColor+Hexadecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D87CD691E9ED49A004B1D85 /* NSColor+Hexadecimal.swift */; };
 		6D87CD6C1E9ED6A3004B1D85 /* NSColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D87CD6B1E9ED6A3004B1D85 /* NSColor+AppColors.swift */; };
 		6DC320811EA70B6E002C1F8B /* PagesContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC320801EA70B6E002C1F8B /* PagesContentController.swift */; };
@@ -52,6 +54,8 @@
 		6D021E831EA5CA320004043D /* ChaptersSectionContent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChaptersSectionContent.xib; sourceTree = "<group>"; };
 		6D021E861EA5CCF60004043D /* Chapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
 		6D2CB75E1E9F1DDE00E41D40 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		6D6B933C1EA95F6800C83FDB /* PageContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentCell.swift; sourceTree = "<group>"; };
+		6D6B933E1EA9687600C83FDB /* NSObject+Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Binding.swift"; sourceTree = "<group>"; };
 		6D87CD691E9ED49A004B1D85 /* NSColor+Hexadecimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Hexadecimal.swift"; sourceTree = "<group>"; };
 		6D87CD6B1E9ED6A3004B1D85 /* NSColor+AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+AppColors.swift"; sourceTree = "<group>"; };
 		6DC320801EA70B6E002C1F8B /* PagesContentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagesContentController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 				6D021E811EA5CA130004043D /* ChaptersContentController.swift */,
 				6D021E831EA5CA320004043D /* ChaptersSectionContent.xib */,
 				6DC320801EA70B6E002C1F8B /* PagesContentController.swift */,
+				6D6B933C1EA95F6800C83FDB /* PageContentCell.swift */,
 				6DC320821EA70B88002C1F8B /* PagesSectionContent.xib */,
 				6D021E761EA570AB0004043D /* SectionContentController.swift */,
 			);
@@ -142,6 +147,7 @@
 				6D021E7C1EA5A16F0004043D /* NSView+BackgroundColor.swift */,
 				6DE9A32A1EA7DA7900DB7B54 /* NSButton+TextColor.swift */,
 				6DE9A32C1EA7DC9100DB7B54 /* NSAttributedString+Colorize.swift */,
+				6D6B933E1EA9687600C83FDB /* NSObject+Binding.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 				6DCB6E741E9EA65500770C4B /* ViewController.swift in Sources */,
 				6D021E801EA5C2380004043D /* NavigationArrow.swift in Sources */,
 				6D021E771EA570AB0004043D /* SectionContentController.swift in Sources */,
+				6D6B933F1EA9687600C83FDB /* NSObject+Binding.swift in Sources */,
 				6DE9A3351EA7FA7500DB7B54 /* LiveViewPreviewLayer.swift in Sources */,
 				6D2CB75F1E9F1DDE00E41D40 /* ContainerView.swift in Sources */,
 				6DC320811EA70B6E002C1F8B /* PagesContentController.swift in Sources */,
@@ -283,6 +290,7 @@
 				6DC320871EA70D85002C1F8B /* SectionContentHeader.swift in Sources */,
 				6D021E871EA5CCF60004043D /* Chapter.swift in Sources */,
 				6DE9A32B1EA7DA7900DB7B54 /* NSButton+TextColor.swift in Sources */,
+				6D6B933D1EA95F6800C83FDB /* PageContentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

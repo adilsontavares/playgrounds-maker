@@ -22,7 +22,7 @@ class LiveViewPreviewLayer : CALayer {
     private let liveViewShadowOpacity: CGFloat = 0.33
     private let logWidthPercent: CGFloat = 0.12
     
-    var showLogPercent: CGFloat = 1.0
+    var showResultsPercent: CGFloat = 1.0
     var liveViewShowPercent: CGFloat = 1.0
     var liveViewFloatPercent: CGFloat = 1.0
     
@@ -36,7 +36,7 @@ class LiveViewPreviewLayer : CALayer {
     
     override class func needsDisplay(forKey key: String) -> Bool {
         
-        if (key == "liveViewFloatPercent" || key == "liveViewShowPercent") {
+        if (key == "liveViewFloatPercent" || key == "liveViewShowPercent" || key == "showResultsPercent") {
             return true
         }
         
@@ -57,7 +57,7 @@ class LiveViewPreviewLayer : CALayer {
         liveViewRect.size.width = contentRect.width - codeRect.width
         
         var logRect = contentRect
-        logRect.size.width *= logWidthPercent * showLogPercent * 0.5
+        logRect.size.width *= logWidthPercent * showResultsPercent * 0.5
         logRect.origin.x = min(bounds.maxX - frameThickness, codeRect.maxX) - logRect.width
         
         drawCode(on: ctx, rect: codeRect)
