@@ -8,9 +8,27 @@
 
 import Cocoa
 
+protocol PageDelegate {
+    
+    func pageWantsToHideDetails(_ page: Page)
+    func pageWantsToShowDetails(_ page: Page)
+}
+
 class Page : NSObject {
     
+    var delegate: PageDelegate?
     var name: String? = ""
+    
+    var collapsed = true {
+        didSet {
+            if collapsed {
+                delegate?.pageWantsToHideDetails(self)
+            }
+            else {
+                delegate?.pageWantsToShowDetails(self)
+            }
+        }
+    }
     
     init(name: String) {
         super.init()

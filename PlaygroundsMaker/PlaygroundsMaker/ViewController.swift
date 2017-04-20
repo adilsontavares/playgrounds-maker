@@ -50,10 +50,10 @@ class ViewController: NSViewController {
             return
         }
         
-        if event.deltaX >= threshold {
+        if event.deltaX <= -threshold {
             sectionGroup.openNextSection()
         }
-        else if event.deltaX <= -threshold {
+        else if event.deltaX >= threshold {
             sectionGroup.openPreviousSection()
         }
     }

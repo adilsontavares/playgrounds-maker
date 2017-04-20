@@ -31,6 +31,11 @@
 		6DCB6E7B1E9EA65500770C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCB6E791E9EA65500770C4B /* Main.storyboard */; };
 		6DDD11051E9EC0F3006F92F3 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD11041E9EC0F3006F92F3 /* SectionView.swift */; };
 		6DDD11071E9EC126006F92F3 /* SectionGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD11061E9EC126006F92F3 /* SectionGroupView.swift */; };
+		6DE9A32B1EA7DA7900DB7B54 /* NSButton+TextColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9A32A1EA7DA7900DB7B54 /* NSButton+TextColor.swift */; };
+		6DE9A32D1EA7DC9100DB7B54 /* NSAttributedString+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9A32C1EA7DC9100DB7B54 /* NSAttributedString+Colorize.swift */; };
+		6DE9A3311EA7E53A00DB7B54 /* HighlightPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9A3301EA7E53A00DB7B54 /* HighlightPopUpButton.swift */; };
+		6DE9A3331EA7EC5500DB7B54 /* LiveViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9A3321EA7EC5500DB7B54 /* LiveViewPreview.swift */; };
+		6DE9A3351EA7FA7500DB7B54 /* LiveViewPreviewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE9A3341EA7FA7500DB7B54 /* LiveViewPreviewLayer.swift */; };
 		6DF2B0B41E9EEDB6003F9230 /* NSView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2B0B31E9EEDB6003F9230 /* NSView+Constraints.swift */; };
 		6DF74FC21EA725020074AD11 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF74FC11EA725020074AD11 /* Page.swift */; };
 /* End PBXBuildFile section */
@@ -62,6 +67,11 @@
 		6DCB6E7C1E9EA65500770C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DDD11041E9EC0F3006F92F3 /* SectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		6DDD11061E9EC126006F92F3 /* SectionGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionGroupView.swift; sourceTree = "<group>"; };
+		6DE9A32A1EA7DA7900DB7B54 /* NSButton+TextColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSButton+TextColor.swift"; sourceTree = "<group>"; };
+		6DE9A32C1EA7DC9100DB7B54 /* NSAttributedString+Colorize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Colorize.swift"; sourceTree = "<group>"; };
+		6DE9A3301EA7E53A00DB7B54 /* HighlightPopUpButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightPopUpButton.swift; sourceTree = "<group>"; };
+		6DE9A3321EA7EC5500DB7B54 /* LiveViewPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewPreview.swift; sourceTree = "<group>"; };
+		6DE9A3341EA7FA7500DB7B54 /* LiveViewPreviewLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewPreviewLayer.swift; sourceTree = "<group>"; };
 		6DF2B0B31E9EEDB6003F9230 /* NSView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+Constraints.swift"; sourceTree = "<group>"; };
 		6DF74FC11EA725020074AD11 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				6D021E7F1EA5C2380004043D /* NavigationArrow.swift */,
+				6DE9A3301EA7E53A00DB7B54 /* HighlightPopUpButton.swift */,
+				6DE9A3321EA7EC5500DB7B54 /* LiveViewPreview.swift */,
+				6DE9A3341EA7FA7500DB7B54 /* LiveViewPreviewLayer.swift */,
 			);
 			name = "Custom views";
 			sourceTree = "<group>";
@@ -127,6 +140,8 @@
 				6D87CD691E9ED49A004B1D85 /* NSColor+Hexadecimal.swift */,
 				6DF2B0B31E9EEDB6003F9230 /* NSView+Constraints.swift */,
 				6D021E7C1EA5A16F0004043D /* NSView+BackgroundColor.swift */,
+				6DE9A32A1EA7DA7900DB7B54 /* NSButton+TextColor.swift */,
+				6DE9A32C1EA7DC9100DB7B54 /* NSAttributedString+Colorize.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -245,10 +260,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D87CD6C1E9ED6A3004B1D85 /* NSColor+AppColors.swift in Sources */,
+				6DE9A3331EA7EC5500DB7B54 /* LiveViewPreview.swift in Sources */,
 				6D021E7D1EA5A16F0004043D /* NSView+BackgroundColor.swift in Sources */,
+				6DE9A32D1EA7DC9100DB7B54 /* NSAttributedString+Colorize.swift in Sources */,
 				6DCB6E741E9EA65500770C4B /* ViewController.swift in Sources */,
 				6D021E801EA5C2380004043D /* NavigationArrow.swift in Sources */,
 				6D021E771EA570AB0004043D /* SectionContentController.swift in Sources */,
+				6DE9A3351EA7FA7500DB7B54 /* LiveViewPreviewLayer.swift in Sources */,
 				6D2CB75F1E9F1DDE00E41D40 /* ContainerView.swift in Sources */,
 				6DC320811EA70B6E002C1F8B /* PagesContentController.swift in Sources */,
 				6D021E821EA5CA130004043D /* ChaptersContentController.swift in Sources */,
@@ -256,6 +274,7 @@
 				6DF2B0B41E9EEDB6003F9230 /* NSView+Constraints.swift in Sources */,
 				6D021E791EA573970004043D /* IntroContentController.swift in Sources */,
 				6DDD11051E9EC0F3006F92F3 /* SectionView.swift in Sources */,
+				6DE9A3311EA7E53A00DB7B54 /* HighlightPopUpButton.swift in Sources */,
 				6DF74FC21EA725020074AD11 /* Page.swift in Sources */,
 				6D87CD6A1E9ED49A004B1D85 /* NSColor+Hexadecimal.swift in Sources */,
 				6DCB6E721E9EA65500770C4B /* AppDelegate.swift in Sources */,
@@ -263,6 +282,7 @@
 				6DCB6E761E9EA65500770C4B /* Document.swift in Sources */,
 				6DC320871EA70D85002C1F8B /* SectionContentHeader.swift in Sources */,
 				6D021E871EA5CCF60004043D /* Chapter.swift in Sources */,
+				6DE9A32B1EA7DA7900DB7B54 /* NSButton+TextColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

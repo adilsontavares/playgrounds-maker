@@ -30,10 +30,10 @@
                                     <rect key="frame" x="0.0" y="0.0" width="197" height="38"/>
                                     <subviews>
                                         <textField focusRingType="none" horizontalHuggingPriority="100" verticalHuggingPriority="100" horizontalCompressionResistancePriority="100" verticalCompressionResistancePriority="100" allowsCharacterPickerTouchBarItem="NO" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNq-1V-OXG">
-                                            <rect key="frame" x="12" y="10" width="173" height="19"/>
-                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" focusRingType="none" placeholderString="1.0" drawsBackground="YES" usesSingleLineMode="YES" id="u6H-Q3-vpX">
+                                            <rect key="frame" x="10" y="9" width="177" height="19"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" focusRingType="none" placeholderString="1.0" usesSingleLineMode="YES" id="u6H-Q3-vpX">
                                                 <font key="font" metaFont="systemBold" size="16"/>
-                                                <color key="textColor" red="0.36078431370000003" green="0.23921568630000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.97280528749999995" green="0.97280528749999995" blue="0.97280528749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="backgroundColor" red="0.87843137250000003" green="0.58823529409999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </textFieldCell>
                                         </textField>
@@ -79,10 +79,10 @@
                                     <rect key="frame" x="0.0" y="0.0" width="592" height="38"/>
                                     <subviews>
                                         <textField focusRingType="none" horizontalHuggingPriority="100" verticalHuggingPriority="100" horizontalCompressionResistancePriority="100" verticalCompressionResistancePriority="100" allowsCharacterPickerTouchBarItem="NO" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e33-qq-2bq">
-                                            <rect key="frame" x="12" y="10" width="568" height="19"/>
-                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" focusRingType="none" placeholderString="Meu Primeiro Livro" drawsBackground="YES" usesSingleLineMode="YES" id="Kx1-M5-TWC">
+                                            <rect key="frame" x="10" y="10" width="572" height="19"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" focusRingType="none" placeholderString="Meu Primeiro Livro" usesSingleLineMode="YES" id="Kx1-M5-TWC">
                                                 <font key="font" metaFont="systemBold" size="16"/>
-                                                <color key="textColor" red="0.36078431372549019" green="0.23921568627450979" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.97280528749999995" green="0.97280528749999995" blue="0.97280528749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="backgroundColor" red="0.87843137250000003" green="0.58823529409999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </textFieldCell>
                                         </textField>
@@ -128,11 +128,11 @@
                                     <rect key="frame" x="0.0" y="0.0" width="801" height="38"/>
                                     <subviews>
                                         <textField focusRingType="none" horizontalHuggingPriority="100" verticalHuggingPriority="100" horizontalCompressionResistancePriority="100" verticalCompressionResistancePriority="100" allowsCharacterPickerTouchBarItem="NO" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Af-rm-Ga1">
-                                            <rect key="frame" x="12" y="10" width="777" height="19"/>
-                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" focusRingType="none" placeholderString="com.meunome.meuplaygroundbook" drawsBackground="YES" usesSingleLineMode="YES" id="vAN-9a-2tI">
+                                            <rect key="frame" x="10" y="10" width="781" height="19"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" focusRingType="none" placeholderString="com.meunome.meuplaygroundbook" usesSingleLineMode="YES" id="vAN-9a-2tI">
                                                 <font key="font" metaFont="systemBold" size="16"/>
-                                                <color key="textColor" red="0.36078431370000003" green="0.23921568630000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <color key="backgroundColor" red="0.87843137250000003" green="0.58823529409999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.97280528749999995" green="0.97280528749999995" blue="0.97280528749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.87843137250000003" green="0.58823529409999997" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                             </textFieldCell>
                                         </textField>
                                     </subviews>
@@ -176,26 +176,49 @@
                                 <customView horizontalHuggingPriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="HpP-T0-xGn">
                                     <rect key="frame" x="0.0" y="0.0" width="394" height="38"/>
                                     <subviews>
-                                        <textField focusRingType="none" horizontalHuggingPriority="100" verticalHuggingPriority="100" horizontalCompressionResistancePriority="100" verticalCompressionResistancePriority="100" allowsCharacterPickerTouchBarItem="NO" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sm2-PG-puM">
-                                            <rect key="frame" x="12" y="10" width="370" height="19"/>
-                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" state="on" focusRingType="none" title="3.0" placeholderString="3.0" drawsBackground="YES" usesSingleLineMode="YES" id="7Xc-4e-Vjr">
-                                                <font key="font" metaFont="systemBold" size="16"/>
-                                                <color key="textColor" red="0.36078431370000003" green="0.23921568630000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <color key="backgroundColor" red="0.87843137250000003" green="0.58823529409999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </textFieldCell>
-                                        </textField>
-                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2Jy-kX-nsJ">
-                                            <rect key="frame" x="369" y="8" width="17" height="22"/>
-                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="GmW-Jf-hT6"/>
-                                        </imageView>
+                                        <customView horizontalHuggingPriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="3Xl-Zo-hZD">
+                                            <rect key="frame" x="0.0" y="0.0" width="394" height="38"/>
+                                            <subviews>
+                                                <popUpButton horizontalHuggingPriority="100" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="BAA-WH-bQ8" customClass="HighlightPopUpButton" customModule="Playgrounds_Maker" customModuleProvider="target">
+                                                    <rect key="frame" x="4" y="7" width="378" height="23"/>
+                                                    <popUpButtonCell key="cell" type="bevel" title="3.0" bezelStyle="rounded" imagePosition="overlaps" alignment="left" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" selectedItem="E0f-NO-wnQ" id="RML-9r-0hU">
+                                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                        <font key="font" metaFont="systemBold" size="16"/>
+                                                        <menu key="menu" id="TOT-AC-iGA">
+                                                            <items>
+                                                                <menuItem title="3.0" state="on" id="E0f-NO-wnQ"/>
+                                                            </items>
+                                                        </menu>
+                                                    </popUpButtonCell>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                                            <color key="value" red="0.97280528749999995" green="0.97280528749999995" blue="0.97280528749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </popUpButton>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="BAA-WH-bQ8" secondAttribute="trailing" constant="12" id="Drl-F8-8qK"/>
+                                                <constraint firstAttribute="height" constant="38" id="Pav-Ki-1bh"/>
+                                                <constraint firstItem="BAA-WH-bQ8" firstAttribute="centerY" secondItem="3Xl-Zo-hZD" secondAttribute="centerY" id="pqV-6R-UDN"/>
+                                                <constraint firstItem="BAA-WH-bQ8" firstAttribute="leading" secondItem="3Xl-Zo-hZD" secondAttribute="leading" constant="4" id="vca-1G-riP"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                    <color key="value" red="0.8784313725490196" green="0.58823529411764708" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="4"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </customView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="2Jy-kX-nsJ" firstAttribute="centerY" secondItem="HpP-T0-xGn" secondAttribute="centerY" id="2Br-1l-yAq"/>
                                         <constraint firstAttribute="height" constant="38" id="Adb-yH-NbI"/>
-                                        <constraint firstAttribute="trailing" secondItem="sm2-PG-puM" secondAttribute="trailing" constant="12" id="Uqd-hz-pS9"/>
-                                        <constraint firstItem="sm2-PG-puM" firstAttribute="leading" secondItem="HpP-T0-xGn" secondAttribute="leading" constant="12" id="coR-Ri-LwZ"/>
-                                        <constraint firstItem="sm2-PG-puM" firstAttribute="centerY" secondItem="HpP-T0-xGn" secondAttribute="centerY" id="isf-Mm-3q1"/>
-                                        <constraint firstAttribute="trailing" secondItem="2Jy-kX-nsJ" secondAttribute="trailing" constant="8" id="jL6-t8-5XI"/>
+                                        <constraint firstItem="3Xl-Zo-hZD" firstAttribute="top" secondItem="HpP-T0-xGn" secondAttribute="top" id="NEK-Rz-JtJ"/>
+                                        <constraint firstAttribute="trailing" secondItem="3Xl-Zo-hZD" secondAttribute="trailing" id="UIa-zo-PRE"/>
+                                        <constraint firstItem="3Xl-Zo-hZD" firstAttribute="leading" secondItem="HpP-T0-xGn" secondAttribute="leading" id="aob-qs-Ymm"/>
+                                        <constraint firstAttribute="bottom" secondItem="3Xl-Zo-hZD" secondAttribute="bottom" id="lD6-Ds-qP9"/>
                                     </constraints>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
@@ -231,26 +254,29 @@
                                 <customView horizontalHuggingPriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="VKL-kq-QcK">
                                     <rect key="frame" x="0.0" y="0.0" width="395" height="38"/>
                                     <subviews>
-                                        <textField focusRingType="none" horizontalHuggingPriority="100" verticalHuggingPriority="100" horizontalCompressionResistancePriority="100" verticalCompressionResistancePriority="100" allowsCharacterPickerTouchBarItem="NO" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tz-LJ-QdQ">
-                                            <rect key="frame" x="12" y="10" width="371" height="19"/>
-                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" state="on" focusRingType="none" title="iOS 10.3" placeholderString="iOS 10.3" drawsBackground="YES" usesSingleLineMode="YES" id="EYp-GE-JyW">
+                                        <popUpButton horizontalHuggingPriority="100" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="A7T-7c-tbd" customClass="HighlightPopUpButton" customModule="Playgrounds_Maker" customModuleProvider="target">
+                                            <rect key="frame" x="4" y="8" width="379" height="23"/>
+                                            <popUpButtonCell key="cell" type="bevel" title="iOS 10.3" bezelStyle="rounded" imagePosition="overlaps" alignment="left" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" selectedItem="vkf-uP-MJw" id="Ufr-BI-sbR">
+                                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                                 <font key="font" metaFont="systemBold" size="16"/>
-                                                <color key="textColor" red="0.36078431370000003" green="0.23921568630000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <color key="backgroundColor" red="0.87843137250000003" green="0.58823529409999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </textFieldCell>
-                                        </textField>
-                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qEk-gP-OLw">
-                                            <rect key="frame" x="370" y="8" width="17" height="22"/>
-                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lock" id="hKt-iV-PIM"/>
-                                        </imageView>
+                                                <menu key="menu" id="mt8-dN-Qbh">
+                                                    <items>
+                                                        <menuItem title="iOS 10.3" state="on" id="vkf-uP-MJw"/>
+                                                    </items>
+                                                </menu>
+                                            </popUpButtonCell>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                                    <color key="value" red="0.97280528749999995" green="0.97280528749999995" blue="0.97280528749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </popUpButton>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="qEk-gP-OLw" secondAttribute="trailing" constant="8" id="IHy-Lp-K8b"/>
+                                        <constraint firstAttribute="trailing" secondItem="A7T-7c-tbd" secondAttribute="trailing" constant="12" id="AZa-nd-8qe"/>
+                                        <constraint firstItem="A7T-7c-tbd" firstAttribute="leading" secondItem="VKL-kq-QcK" secondAttribute="leading" constant="4" id="Mvn-oU-MSn"/>
                                         <constraint firstAttribute="height" constant="38" id="P03-aG-Qqj"/>
-                                        <constraint firstItem="7tz-LJ-QdQ" firstAttribute="centerY" secondItem="VKL-kq-QcK" secondAttribute="centerY" id="byk-ej-G6U"/>
-                                        <constraint firstAttribute="trailing" secondItem="7tz-LJ-QdQ" secondAttribute="trailing" constant="12" id="eXo-P7-JEJ"/>
-                                        <constraint firstItem="qEk-gP-OLw" firstAttribute="centerY" secondItem="VKL-kq-QcK" secondAttribute="centerY" id="jWU-8I-k15"/>
-                                        <constraint firstItem="7tz-LJ-QdQ" firstAttribute="leading" secondItem="VKL-kq-QcK" secondAttribute="leading" constant="12" id="zAi-Jo-n13"/>
+                                        <constraint firstItem="A7T-7c-tbd" firstAttribute="centerY" secondItem="VKL-kq-QcK" secondAttribute="centerY" id="r60-bh-rZj"/>
                                     </constraints>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
@@ -287,7 +313,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="395" height="323"/>
                                     <subviews>
                                         <textField horizontalHuggingPriority="100" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EkW-mA-esH">
-                                            <rect key="frame" x="-2" y="8" width="399" height="17"/>
+                                            <rect key="frame" x="4" y="8" width="387" height="17"/>
                                             <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Opcional, mas recomendado." id="rVW-FJ-Rgv">
                                                 <font key="font" metaFont="systemSemibold" size="13"/>
                                                 <color key="textColor" red="0.70588235294117641" green="0.47058823529411764" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -299,19 +325,17 @@
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="1pW-4x-TR0" secondAttribute="height" multiplier="4:3" id="Nu2-BU-LxU"/>
                                             </constraints>
-                                            <imageCell key="cell" selectable="YES" editable="YES" focusRingType="none" alignment="left" animates="YES" imageScaling="proportionallyDown" image="drag-book-icon" id="w8H-Qm-UhN"/>
+                                            <imageCell key="cell" selectable="YES" editable="YES" focusRingType="none" alignment="left" animates="YES" imageScaling="proportionallyUpOrDown" image="drag-book-icon" id="w8H-Qm-UhN"/>
                                         </imageView>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="EkW-mA-esH" firstAttribute="centerX" secondItem="YW5-rk-lqm" secondAttribute="centerX" id="1Ey-3q-JcA"/>
                                         <constraint firstItem="1pW-4x-TR0" firstAttribute="leading" secondItem="YW5-rk-lqm" secondAttribute="leading" constant="12" id="AC7-PL-dc0"/>
-                                        <constraint firstAttribute="trailing" secondItem="EkW-mA-esH" secondAttribute="trailing" id="G6Y-ER-pC9"/>
                                         <constraint firstItem="1pW-4x-TR0" firstAttribute="top" secondItem="YW5-rk-lqm" secondAttribute="top" constant="12" id="JFd-iN-JJ7"/>
-                                        <constraint firstAttribute="trailing" secondItem="EkW-mA-esH" secondAttribute="trailing" id="K8V-Ub-GID"/>
                                         <constraint firstItem="EkW-mA-esH" firstAttribute="top" secondItem="1pW-4x-TR0" secondAttribute="bottom" constant="8" id="Sil-aq-gx5"/>
                                         <constraint firstAttribute="trailing" secondItem="1pW-4x-TR0" secondAttribute="trailing" constant="12" id="XrG-86-8Uh"/>
                                         <constraint firstAttribute="bottom" secondItem="EkW-mA-esH" secondAttribute="bottom" constant="8" id="g4Z-pe-OiW"/>
-                                        <constraint firstItem="EkW-mA-esH" firstAttribute="leading" secondItem="YW5-rk-lqm" secondAttribute="leading" id="gDz-3b-62W"/>
-                                        <constraint firstItem="EkW-mA-esH" firstAttribute="leading" secondItem="YW5-rk-lqm" secondAttribute="leading" id="oDb-7e-vVi"/>
+                                        <constraint firstItem="EkW-mA-esH" firstAttribute="leading" secondItem="YW5-rk-lqm" secondAttribute="leading" constant="6" id="oDb-7e-vVi"/>
                                     </constraints>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
@@ -413,6 +437,5 @@
     </objects>
     <resources>
         <image name="drag-book-icon" width="211" height="153.5"/>
-        <image name="lock" width="16.5" height="21.5"/>
     </resources>
 </document>
